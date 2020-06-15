@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap')
+
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	height: 100%;
+	display: flex;
+	font-family: 'Merriweather', serif;
+	flex-direction: column;
+	background-size: 100%;
+	background: url(https://www.splitshire.com/wp-content/uploads/2020/05/SplitShire-20-08069.jpg);
+}
+.cap {
+	background: black;
+	height: 110px;
+	position: relative;
+	box-sizing: border-box;
+	border-radius: 0 0 30px 30px;
+	border: white solid 1px;
+}
+.links {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	padding-top: 45px;
+	padding-left: 50px;
+	font-size: 25px;
+
+}
+.logo {
+	box-sizing: border-box;
+	border-radius: 50%;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.main_content {
+	display: flex;
+	flex-grow: 1;
+}
+.form {
+	width: 30%;
+	color: white;
+}
+.info {
+	width: 68%;
+	background: gray;
+	opacity: 0.75;
+	margin: 50px 0 50px 0;
+	border-radius: 30px;
+	
+}
+.basement {
+	box-sizing: border-box;
+	background: black;
+	color: white;
+	padding: 20px;
+	border-radius: 30px 30px 0 0;
+	border: solid white 1px;
+}
+.avatar	{
+	box-sizing: border-box;
+	border-radius: 50%;
+	width: 200px;
+	margin-top: 30px;
+}
+.avatar_content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.text {
+	margin: 0;
+	padding: 0;
+}
+.my_data {
+	box-sizing: border-box;
+	padding-top: 10px;
+	padding-left: 40px
+}
+.title {
+	text-align: left;
+}
+.button {
+	padding: 10px 0 20px 50px;
+}
+.text_main {
+	width: 80%;
+	text-align: justify;
+	margin-left: auto;
+    margin-right: auto;
+    hyphens: auto;
+    margin-bottom: 5%;
+    background: gray;
+    opacity: 0.75;
+    padding: 20px;
+    border-radius: 30px;
+}
+.link_text {
+	text-decoration: none;
+	color: white;
+}
+.link_text_top {
+	text-decoration: none;
+	color: black;
+}
+
